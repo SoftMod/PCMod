@@ -4,11 +4,11 @@
   <Description>This is the brain of a computer. All other hardware devices will attach to the Motherboard.</Description>
   <Needs></Needs>
   <Random>0.2</Random>
-	<Popularity>0.1</Popularity>
-	<OSSpecific>FALSE</OSSpecific>
-	<OneClient>FALSE</OneClient>
-	<InHouse>TRUE</InHouse>
-	<NameGenerator>Motherboards</NameGenerator>
+  <Popularity>0.1</Popularity>
+  <OSSpecific>FALSE</OSSpecific>
+  <OneClient>FALSE</OneClient>
+  <InHouse>TRUE</InHouse>
+  <NameGenerator>Motherboards</NameGenerator>
   <!--Start of Features-->
   <Features>
     <!--Start of 64-bit mobo-->
