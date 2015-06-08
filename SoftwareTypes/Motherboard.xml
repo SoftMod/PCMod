@@ -9,14 +9,17 @@
       <Name>64bit Enbaled</Name>
       <Descripiton>Allows for 64-bit operating systems to be installed.</Descripiton>
       <DevTime>2</DevTime>
-      <Innovation>0.5</Innovation>
+      <Innovation>1.0</Innovation>
       <Dependencies></Dependencies>
       <!--End of 64-bit mobo-->
   </Features>
+  <!--Start of 32-bit mobo-->
   <Feature Forced="TRUE">
     <Name>32bit Enabled</Name>
     <Description>Allows for 32-bit operating systems to be installed</Description>
     <DevTime>2</DevTime>
+    <Innovation>0.5</Innovation>
+    <!--End of 32-bit mobo-->
   </Feature>
-  
-  
+</Feature
+</SoftwareType>
