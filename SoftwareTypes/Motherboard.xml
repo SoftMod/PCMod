@@ -1,25 +1,39 @@
 <SoftwareType>
   <Name>Motherboard</Name>
  <!--Cat. name, should be used for all hardware--> <Category>Computing Hardware</Category>
-  <Description>The building block of a computer.</Description>
+  <Description>This is the brain of a computer. All other hardware devices will attach to the Motherboard.</Description>
+  <Needs></Needs>
+  <Random>0.2</Random>
+	<Popularity>0.1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>Motherboards</NameGenerator>
   <!--Start of Features-->
   <Features>
     <!--Start of 64-bit mobo-->
     <Feature From="32bit Enabled">
       <Name>64bit Enbaled</Name>
       <Descripiton>Allows for 64-bit operating systems to be installed.</Descripiton>
-      <DevTime>2</DevTime>
-      <Innovation>1.0</Innovation>
+      <DevTime>3</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>1</Usability>
+      <Stability>0</Stability>
+      <CodeArt>1</CodeArt>
       <Dependencies></Dependencies>
       <!--End of 64-bit mobo-->
+    </Feature>
+    <!--Start of 32-bit mobo-->
+    <Feature Forced="TRUE">
+      <Name>32bit Enabled</Name>
+      <Description>Allows for 32-bit operating systems to be installed</Description>
+      <DevTime>2</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>0</Usability>
+      <Stability>1</Stability>
+      <CodeArt>1</CodeArt>
+      <Dependencies></Dependencies>
+      <!--End of 32-bit mobo-->
+    </Feature>
   </Features>
-  <!--Start of 32-bit mobo-->
-  <Feature Forced="TRUE">
-    <Name>32bit Enabled</Name>
-    <Description>Allows for 32-bit operating systems to be installed</Description>
-    <DevTime>2</DevTime>
-    <Innovation>0.5</Innovation>
-    <!--End of 32-bit mobo-->
-  </Feature>
-</Feature
 </SoftwareType>
