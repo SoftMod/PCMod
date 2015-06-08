@@ -5,13 +5,18 @@
   <!--Start of Features-->
   <Features>
     <!--Start of 64-bit mobo-->
-    <Feture Forced="TRUE">
+    <Feature From="32bit Enabled">
       <Name>64bit Enbaled</Name>
       <Descripiton>Allows for 64-bit operating systems to be installed.</Descripiton>
+      <DevTime>2</DevTime>
       <Innovation>0.5</Innovation>
       <Dependencies></Dependencies>
       <!--End of 64-bit mobo-->
   </Features>
- 
+  <Feature Forced="TRUE">
+    <Name>32bit Enabled</Name>
+    <Description>Allows for 32-bit operating systems to be installed</Description>
+    <DevTime>2</DevTime>
+  </Feature>
   
   
