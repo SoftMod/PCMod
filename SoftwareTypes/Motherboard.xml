@@ -1,4 +1,17 @@
 <SoftwareType>
   <Name>Motherboard</Name>
  <!--Cat. name, should be used for all hardware--> <Category>Computing Hardware</Category>
+  <Description>The building block of a computer.</Description>
+  <!--Start of Features-->
+  <Features>
+    <!--Start of 64-bit mobo-->
+    <Feture Forced="TRUE">
+      <Name>64bit Enbaled</Name>
+      <Descripiton>Allows for 64-bit operating systems to be installed.</Descripiton>
+      <Innovation>0.5</Innovation>
+      <Dependencies></Dependencies>
+      <!--End of 64-bit mobo-->
+  </Features>
+ 
+  
   
